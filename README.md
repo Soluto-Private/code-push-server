@@ -1,5 +1,5 @@
 # Visual Studio App Center CodePush Standalone Version
-## Fork to support Asurion Hub mobile application
+## For use in Asurion Hub mobile application
 
 [CodePush](https://learn.microsoft.com/en-us/appcenter/distribution/codepush/) was a Microsoft App Center feature that enables React Native developers to deploy mobile app updates directly to their users’ devices. It consists of two parts: CodePush Server where developers can publish app updates to (e.g. JS, HTML, CSS or image changes), and [CodePush React Native Client SDK](https://github.com/Microsoft/react-native-code-push) that enables querying for updates from within an app.
 
