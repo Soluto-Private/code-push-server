@@ -1,9 +1,11 @@
 # Visual Studio App Center CodePush Standalone Version
+## Fork to support Asurion Hub mobile application
 
-[CodePush](https://learn.microsoft.com/en-us/appcenter/distribution/codepush/) is an App Center feature that enables React Native developers to deploy mobile app updates directly to their users’ devices. It consists of two parts: CodePush Server where developers can publish app updates to (e.g. JS, HTML, CSS or image changes), and [CodePush React Native Client SDK](https://github.com/Microsoft/react-native-code-push) that enables querying for updates from within an app.
+[CodePush](https://learn.microsoft.com/en-us/appcenter/distribution/codepush/) was a Microsoft App Center feature that enables React Native developers to deploy mobile app updates directly to their users’ devices. It consists of two parts: CodePush Server where developers can publish app updates to (e.g. JS, HTML, CSS or image changes), and [CodePush React Native Client SDK](https://github.com/Microsoft/react-native-code-push) that enables querying for updates from within an app.
 
-We announced that Visual Studio App Center will be retired on March 31, 2025. You can learn more about the support timeline and alternatives on https://aka.ms/appcenter/retire. In order to let developers keep using CodePush functionality after App Center is fully retired, we created a standalone version of CodePush Server that can be deployed and used independently from App Center itself. Code of this standalone version can be found in this repository. It is fully compatible with [CodePush React Native Client SDK](https://github.com/Microsoft/react-native-code-push).
+Microsoft announced that Visual Studio App Center will be retired on March 31, 2025. You can learn more about the support timeline and alternatives on https://aka.ms/appcenter/retire. In order to let developers keep using CodePush functionality after App Center is fully retired, Microsoft created a standalone version of CodePush Server that can be deployed and used independently from App Center itself. Code of this standalone version could be found in the [original repository](https://github.com/microsoft/code-push-server). It is fully compatible with [CodePush React Native Client SDK](https://github.com/Microsoft/react-native-code-push). This fork was created due to the fact the original `code-push-server` is unlikely to see ongoing support and maintenance from Microsoft.
 
+The Asurion Hub team (HUB-MOBILE) is responsible for maintaining this fork.
 
 ## Getting Started
 
